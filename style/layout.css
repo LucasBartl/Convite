@@ -1,0 +1,54 @@
+#division {
+    display: grid;
+    grid-template-columns: 32.79% 67.21%;
+    justify-items: center;
+    gap: 1.25rem;
+    width: 80rem;
+    height: 123.81rem;
+
+    & .asid-container {
+        display: grid;
+        background-image: url(../assets/images/Background.png);
+        background-size: cover;
+        background-position: center;
+        height: 45.5rem;
+        width: 25rem;
+        border-radius: 0.75rem;
+    }
+
+
+
+
+}
+
+.secondary {
+    display: grid;
+    justify-items: center;
+    width: 21rem;
+    height: 9rem;
+    position: absolute;
+
+    & h1 {
+        color: var(--pink);
+        font: var(--text);
+    }
+
+    & p {
+        font: var(--open-sm);
+        color: var(--text-heading);
+    }
+
+    & .fest {
+
+        img {
+            padding-bottom: 1rem;
+            position: relative;
+            height: 3rem;
+            width: 2.86rem;
+            
+            right: 6.7rem;
+            top: 1.85rem;
+        }
+    }
+
+}

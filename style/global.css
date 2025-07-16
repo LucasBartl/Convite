@@ -9,7 +9,7 @@
     --font-family-baloo:"Baloo 2", sans-serif;
     --font-family-sans:"Open Sans", sans-serif;
     --text: 400 2.5rem/1.2 var(--font-family-leckerli);
-    --baloo-md: 800 1.7rem/1.2 var(--font-family-baloo);
+    --baloo-md: 600 1.7rem/1.2 var(--font-family-baloo);
     --baloo-sm: 800 1.1rem/1.2 var(--font-family-baloo);
     --open-md: 600 1rem/1.2 var(--font-family-sans);
     --open-sm: 600 0.8rem/1.2 var(--font-family-sans);
@@ -40,4 +40,8 @@
 
     --text-body:#C8CDD0;
     --text-heading:#F9F9F9;
+}
+
+body{
+    overflow: hidden;
 }

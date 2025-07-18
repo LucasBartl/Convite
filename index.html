@@ -47,14 +47,35 @@
                     <h1>Crie seu convite</h1>
                     <form action="" method="post" enctype="multipart/form-data">
                         <fieldset>
+                            <div class="radio-image"></div>
                             <legend for="">Sobre o evento</legend>
 
                             <div class="input-wrapper">
                                 <label for="title">Título</label>
                                 <input type="text" id="title" name="title" placeholder="Nome do evento">
                             </div>
-                            <div class="grid">
-                                
+                            <div class="input-wrapper">
+                                <div class="grid grid-1">
+                                    <div class="input-wrapper">
+                                        <label for="start-date">Inicio</label>
+                                        <input type="date" name="start-date" id="start-date">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label for="end-date">Fim</label>
+                                        <input type="date" name="end-date" id="end-date">
+                                    </div>
+                                </div>
+                                <div class="grid grid-1">
+                                    <div id="seletor" class="input-wrapper ">
+                                        <label for="tipo">Tipo</label>
+                                        <button>Presencial</button>
+                                        <button>Remoto</button>
+                                    </div>
+                                    <div class="input-wrapper ">
+                                        <label for="local">Local</label>
+                                        <input type="text" name="local" id="local" placeholder="Link ou endereço">
+                                    </div>
+                                </div>
                             </div>
 
                         </fieldset>

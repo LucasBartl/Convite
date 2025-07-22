@@ -8,10 +8,7 @@
 }
 .grid-1{
     display: grid;
-    grid-template-columns:repeat( 2, 50% 50%) ;
+    grid-template-columns:1fr 1fr ;
 }
-.grid-2{
-    display: grid;
-    grid-template-columns: repeat(3, 25% 25% 50% );
-}
+
 

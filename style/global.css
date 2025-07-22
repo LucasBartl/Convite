@@ -10,7 +10,7 @@
     --font-family-sans:"Open Sans", sans-serif;
     --text: 400 2.5rem/1.2 var(--font-family-leckerli);
     --baloo-md: 600 1.7rem/1.2 var(--font-family-baloo);
-    --baloo-sm: 800 1.1rem/1.2 var(--font-family-baloo);
+    --baloo-sm: 600 1.1rem/1.2 var(--font-family-baloo);
     --open-md: 600 1rem/1.2 var(--font-family-sans);
     --open-sm: 600 0.8rem/1.2 var(--font-family-sans);
     --open-xs: 600 0.75rem/1.2 var(--font-family-sans);
@@ -43,5 +43,5 @@
 }
 
 body{
-    overflow: hidden;
+    overflow:scroll;
 }

@@ -4,6 +4,6 @@ textarea{
     width: 100%;
     padding: 1rem;
     resize: none;
-
-
+    border: 1px solid var(--input-stroke);
+    background-color: var(--input-base);
 }

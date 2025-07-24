@@ -1,2 +1,7 @@
 @import url(../fild/index.css);
 
+fieldset {
+    margin-bottom:3rem ;
+    display: block;
+    border: none;
+}

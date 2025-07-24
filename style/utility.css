@@ -11,4 +11,12 @@
     grid-template-columns:1fr 1fr ;
 }
 
-
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex-direction: row;
+}
+.gap-auto{
+    gap: auto;
+}

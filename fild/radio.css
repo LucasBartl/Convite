@@ -1,0 +1,46 @@
+.radio-image {
+    content: "";
+    position: relative;
+    bottom: 0.8rem;
+    background: url(../assets/icons/calendar.svg) no-repeat;
+    height: 2rem;
+    width: 2rem;
+}
+
+#customize{
+    
+    .radio-image {
+    content: "";
+    position: relative;
+    bottom: 0.8rem;
+    background: url(../assets/icons/pincel.svg) no-repeat;
+    height: 2rem;
+    width: 2rem;
+    }
+
+
+
+    .radio-wrapper{
+        
+        max-height: 4.65rem;
+        max-width: 35rem ;
+        &label{
+            padding-bottom: 0.5rem;
+        }
+        
+    .circle{
+        gap: auto;
+        justify-content: space-around;
+        
+        & input[type="radio"]{
+        appearance: none;  
+        height: 1.75rem ;
+        width: 1.75rem;
+        border-radius: 50%;
+        cursor: pointer;
+        }
+
+    }
+    
+    }
+}

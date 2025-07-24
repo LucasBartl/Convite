@@ -46,12 +46,12 @@
                 <div class="primary">
                     <h1>Crie seu convite</h1>
                     <form action="" method="post" enctype="multipart/form-data">
-                        <fieldset>
+                        <fieldset id="event-info">
 
-                            <div id="sobre">
-                            <div class="radio-image"></div>
-                            <legend for="">Sobre o evento</legend>
-                            </div>   
+                            <div class="sobre">
+                                <div class="radio-image"></div>
+                                <legend for="">Sobre o evento</legend>
+                            </div>
                             <div id="title">
                                 <label for="title">Título</label>
                                 <input type="text" id="title" name="title" placeholder="Nome do evento">
@@ -60,35 +60,89 @@
                                 <div class="container grid grid-1">
                                     <div class="input-wrapper">
                                         <label for="start-date">Inicio</label>
-                                        <input type="date" name="start-date" id="start-date">
+                                        <input type="text" name="start-date" id="start-date"
+                                            placeholder="DD/MM/AAAA, --:--">
                                     </div>
                                     <div class="  input-wrapper">
                                         <label for="end-date">Fim</label>
-                                        <input type="date" name="end-date" id="end-date">
+                                        <input type="text" name="end-date" id="end-date" placeholder="DD/MM/AAAA, --:--"">
                                     </div>
                                 </div>
-                                <div class="container grid grid-1">
-                                    <div class="radio-wrapper">
-                                        <label for="tipo">Tipo</label>
-                                        <div class="radio-group">
-                                            <input type="radio" name="tipo" id="presencial" value="presencial">
-                                            <label for="presencial" class="radio-button"> Presencial</label>
+                                <div class=" container grid grid-1">
+                                        <div class="radio-wrapper">
+                                            <label for="tipo">Tipo</label>
+                                            <div class="radio-group">
+                                                <input type="radio" name="tipo" id="presencial" value="presencial">
+                                                <label for="presencial" class="radio-button"> Presencial</label>
 
-                                            <input type="radio" name="tipo" id="remoto" value="remoto">
-                                            <label for="remoto" class="radio-button"> Online</label>
+                                                <input type="radio" name="tipo" id="remoto" value="remoto">
+                                                <label for="remoto" class="radio-button"> Online</label>
+                                            </div>
+                                        </div>
+                                        <div class="input-wrapper ">
+                                            <label for="local">Local</label>
+                                            <input type="text" name="local" id="local" placeholder="Link ou endereço">
                                         </div>
                                     </div>
                                     <div class="input-wrapper ">
-                                        <label for="local">Local</label>
-                                        <input type="text" name="local" id="local" placeholder="Link ou endereço">
+                                        <div class="text-wrapper">
+                                            <label for="">Descrição</label>
+                                            <textarea name="descricao"
+                                                placeholder="Escreva sobre os detalhes do evento"></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="input-wrapper ">
-                                    <div class="text-wrapper">
-                                        <label for="">Descrição</label>
-                                        <textarea name="descricao" placeholder="Escreva sobre os detalhes do evento" ></textarea>
+                        </fieldset>
+                        <fieldset id="customize">
+
+                            <div id="start" class="grid">
+                                <div class="sobre">
+                                    <div class="radio-image"></div>
+                                    <legend>Personalização</legend>
+                                </div>
+                                <div class="container grid">
+                                    <div class="radio-wrapper grid ">
+                                        <label  for="">Cor principal</label>
+                                        <div class="circle flex  ">
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="blue">
+                                        </div>
+                                        </div>
                                     </div>
-                                </div>    
+                                    <div class="input-wrapper grid">
+                                        
+                                    </div>
+                                </div>
                             </div>
 
                         </fieldset>

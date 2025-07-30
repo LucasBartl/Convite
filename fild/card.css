@@ -1,0 +1,39 @@
+
+
+#card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    
+     
+
+}
+label{
+    
+}
+
+
+
+.card-tema{
+    display: grid;
+    overflow: hidden;
+    text-align: center;
+    max-width: 8.37rem;
+    height: 6.43rem ;
+    border: 1px solid var(--input-stroke);
+    border-radius: 0.5rem;
+    padding: 0.15rem;
+    gap: 0.5;
+    background-color: var(--shape-button);
+    & img{
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+        margin: auto;
+        border-radius: 0.25rem;
+    }
+    & p{
+        font: var(--open-sm);
+        color: var(--text-heading);
+    }
+}

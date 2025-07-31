@@ -10,6 +10,11 @@
     display: grid;
     grid-template-columns:1fr 1fr ;
 }
+.grid-2{
+    display: grid;
+    grid-template-columns:1fr 63% ;
+}
+
 
 .flex{
     display: flex;

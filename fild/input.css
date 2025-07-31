@@ -54,31 +54,28 @@ textarea::placeholder{
     color: var(--input-placeholder);
 }
 
-#event-info{
-.radio-group {
+
+
+
+#upload-space{
         display: flex;
-        border: 1px solid var(--input-stroke);
-        padding: 0.25rem;
+        align-self: center;
+        overflow: hidden;
         border-radius: 0.5rem;
-        max-height: 3rem;
-        align-items: center;
-        gap: 0.25rem;
-        background-color: var(--input-base);
-    }
-
-    & input[type="radio"] {
-        display: none;
-    }
-
-.radio-button {
-        position: relative;
-        top: 0.2rem;
-        height: 2rem;
-        width: 100%;
-        text-align: center;
-        border-radius: 0.5rem;
-        padding: 0.25rem 0.25rem;
+        border: 1px solid var(--input-stroke);       
+        background-color: var(--input-stroke); 
+        width: 7.43rem;
+        height: 2.5rem;
         gap: 0.5rem;
-        color: var(--input-placeholder);
+        
+    & .rimage{
+        background-image: url(../assets/icons/upload.svg);
+        height: 1rem;
+        width: 1rem;
+         
+    } 
 }
+
+#upload-space input[type="file"] {
+  display: none; 
 }

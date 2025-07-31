@@ -5,3 +5,6 @@ fieldset {
     display: block;
     border: none;
 }
+#tipo{
+    padding-bottom: 1.75rem;
+}

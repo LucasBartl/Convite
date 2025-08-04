@@ -118,3 +118,14 @@
   left: 2.1rem;
   
 }
+
+#dados{
+    .radio-image{
+        background-image: url(../assets/icons/perfil.svg);
+        content: "";
+        position: relative;
+        bottom: 0.8rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}

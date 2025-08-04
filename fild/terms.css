@@ -1,0 +1,65 @@
+#termos {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+
+    .terms-card {
+        p {
+            position: relative;
+            right: 1rem;
+            font: var(--open-sm);
+            color: var(--text-body);
+        }
+
+        .radio-image {
+            content: '';
+            position: relative;
+            top: 0.3rem;
+            background-image: url(../assets/icons/check.svg);
+        }
+
+        a {
+            font: var(--open-sm);
+            color: var(--brand-light);
+        }
+    }
+
+
+
+    button{
+        border: 1px var(--brand-dark);
+        border-radius: 0.5rem;
+        background-color: var(--brand-dark);
+        width: 11.06rem;
+        height: 3rem;
+    }
+    #button-convite {
+        display: flex;
+        gap: 0.75rem;
+        position: relative;
+        left: 23.93rem;
+        height: 3rem;
+        top: 3rem;
+        width: 11.06rem;
+        overflow: hidden;
+        align-items: center;
+        padding: 0.5;
+
+        .radio-image {
+            
+            background-image: url(../assets/icons/ticket.svg);
+            content: "";
+            position: relative;
+            left: 0.5rem;
+            top: 0.0008rem;
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+        p{
+            font:var(--open-md);
+            color: var(--text-body);
+
+        }
+    }
+
+
+}

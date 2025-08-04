@@ -105,3 +105,11 @@ textarea::placeholder{
 #upload-space input[type="file"] {
   display: none; 
 }
+
+
+#dados{
+    padding-top: 0.3rem ;
+    div + div{
+        margin-bottom: 1rem;
+    }
+}
